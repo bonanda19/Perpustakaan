@@ -1,0 +1,149 @@
+.bgweb{
+      /* background-image: url('/image/ampera2.jpg'); */
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation: change 20s infinite ease-in-out;
+}
+
+@keyframes change{
+  0%
+  {
+    background-image: url("/image/ampera2.jpg");
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  20%
+  {
+    background-image: url("/image/kemaro1.jpg");
+  }
+  40%
+  {
+    background-image: url("/image/masjid1.jpg");
+  }
+  60%
+  {
+    background-image: url("/image/monpera1.webp");
+  }
+  80%
+  {
+    background-image: url("/image/bkb1.jpg");
+  }
+  100%
+  {
+    background-image: url("/image/ampera2.jpg");
+  }
+}
+
+.bgside{
+    background-color: #d4d4d4;
+    position: fixed;
+}
+  
+  .sidebar a {
+    display: block;
+    padding: 13px;
+    text-decoration: none;
+    color: #1b4965; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 50px;
+  }
+
+  .jd{
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+    left: 104px; 
+    top: 32px; 
+    position: absolute; 
+    color: #1B4965; 
+    font-size: 17px; 
+    font-family: Arial, Helvetica, sans-serif;  
+    word-wrap: break-word;
+  }
+
+  #sidebarToggle{
+    background-color:  #1b4965;
+    display: block;
+    text-decoration: none;
+    color: #d4d4d4;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+   
+  .sidebar a.active {
+    background-color: #555;
+    color: white;
+    width: 100%;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    width: 18rem;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .logo{
+    width: 270px; 
+    height: 105px; 
+    position: relative;
+    margin-bottom: 25%;
+    margin-left: 2%;
+  }
+
+  .img{
+    width: 101.12px; 
+    height: 100px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
+  }
+
+.toggleclose{
+  margin-left: 14rem;
+  border: 0px;
+  background-color: #d4d4d4;
+  margin-top: 10px;
+  display: block;
+  color: #1b4965;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttonMenu{
+  margin-top: 10px;
+}
+
+#buttonMenu .btnmenu{
+  background-color: #1b4965;
+}
+
+
+

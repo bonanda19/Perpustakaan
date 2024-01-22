@@ -1,0 +1,38 @@
+/* .formlogin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+} */
+
+.formlogin input[type="username"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  } 
+
+  .formlogin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.formlogin .form-floating-login:focus-within {
+    z-index: 2;
+  } 
+
+.h1-lgn{
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -3px;
+    margin-top: 13rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold
+    
+}
+
+.btnlogin{
+  background-color: #1B4965;
+  color: #ffffff;
+}
