@@ -6,7 +6,7 @@
         </div>
      
       <div class="sidebar list-group">
-          <a class="{{ ($title === 'Home') ? 'active' : '' }}" href="{{ route('dashboard') }}">dashboard</a>
+          <a class="{{ ($title === 'Home') ? 'active' : '' }}" href="{{ route('dashboard') }}">Dashboard</a>
           <a class="{{ ($title === 'Upload Buku') ? 'active' : '' }}" href="{{ route('createbuku') }}">Upload buku</a>
           <a class="{{ ($title === 'Login Admin') ? 'active' : '' }}" href="/logout">Logout</a>
           

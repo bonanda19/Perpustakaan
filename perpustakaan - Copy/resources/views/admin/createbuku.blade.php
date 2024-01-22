@@ -68,7 +68,7 @@
                     <label for="image" class="form-label">Sampul Buku :</label>
                     <input class="sampul form-control" type="file" id="image" name="image">
                 </div>
-                <button type="submit" class="btn mt-3">Upload</button>
+                <button type="submit" class="btn mt-3 btn-primary">Tambah</button>
                 <a class="btn btn-primary mt-3" href="{{ route('dashboard') }}">Kembali</a>
             </form> 
            </div>

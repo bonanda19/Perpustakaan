@@ -24,12 +24,13 @@
     padding: 10px 10px 0 10px;
     vertical-align: top;
     transition: height 1s;
+    overflow: hidden;
   }
  
   
   .cover {
     border: 2px solid gray;
-    height: 71%;
+    height: 67%;
     overflow: hidden;
   }
   
@@ -45,11 +46,13 @@
     font-weight: bold;
     font-style: normal;
     color: #1b4965;
+    overflow: hidden;
   }
   
   .book .author {
     font-size: 14px;
     font-weight: normal;
+    
   }
   @media (max-width: 941px) {
     .container {
@@ -91,4 +94,8 @@
     font-size: 50px;
     margin-bottom: -3px;
     font-family: "Outfit", sans-serif;
+  }
+
+  .description a{
+    text-decoration: none;
   }

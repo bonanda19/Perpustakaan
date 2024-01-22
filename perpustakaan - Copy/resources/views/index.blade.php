@@ -56,8 +56,7 @@
                                     <a href="/index/{{ $i->slug }}"><img src="{{ asset('storage/' . $i->image) }}"></a>
                                 </div>
                                 <div class="description">
-                                  <a href="/index/{{ $i->slug }}"><p class="title">{{ $i->Judul }}<br>
-                                  <span class="author">{{ $i->Jilid }}</span></p></a>
+                                  <a href="/index/{{ $i->slug }}"><p class="title">{{ $i->Judul }}  
                                 </div>
                             </div>
                         @endforeach
