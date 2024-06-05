@@ -1,0 +1,125 @@
+.container {
+    margin: 0 auto;
+    max-width: 910px;
+  }
+  
+  .book {
+    display: inline-block;
+    background-color: white;
+    width: 220px;
+    height: 400px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    background: #FEFCFF;
+    margin: 25px;
+    padding: 10px;
+    vertical-align: top;
+    transition: height 1s;
+    overflow: hidden;
+  }
+ 
+  
+  .cover {
+    align-content: center;
+    overflow: hidden;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .cover img {
+    align-content: center;
+    justify-content: center;
+    width: 205px;
+    height: 300px;
+    left: 21px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .book p {
+    margin-top: 12px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #1b4965;
+    overflow: scroll;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 10px 10px 20px;
+    height: 70px;
+
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+  .book p::-webkit-scrollbar {
+    display: none; 
+  }
+
+   
+  
+  .book .author {
+    font-size: 14px;
+    font-weight: normal;
+    
+  }
+  @media (max-width: 941px) {
+    .container {
+      max-width: 700px;
+    }
+    .book {
+      margin: 49px;
+    }
+  }
+  @media (max-width: 730px) {
+    .book {
+      display: inline-block;
+      margin: 0 auto;
+      margin-top: 50px;
+      width: 150px;
+      height: 250px;
+      
+    }
+    .cover {
+      border: 2px solid gray;
+      height: 66%;
+      overflow: hidden;
+    }
+    .book p {
+      margin: 10, 10;
+      font-size: 11px;
+      text-justify: distribute-all-lines;
+      
+    }
+
+    .book .author {
+      font-size: 10px;
+      font-weight: normal;
+    }
+  }
+  
+  h1 {
+    margin-top: 25px;
+    color: gray;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: -3px;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .description a{
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #1b4965;
+    overflow: hidden;
+    width: 100px;
+
+  }
+
+ 

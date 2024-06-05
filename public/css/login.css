@@ -1,0 +1,82 @@
+/* .formlogin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+} */
+
+/* .formlogin input[type="username"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  } 
+
+  .formlogin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.formlogin .form-floating-login:focus-within {
+    z-index: 2;
+  } 
+
+.h1-lgn{
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -3px;
+    margin-top: 13rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold
+    
+} */
+
+/* .btnlogin{
+  background-color: #1B4965;
+  color: #ffffff;
+} */
+.containerlogin {
+  width: 1440px;
+  height: 500px;
+}
+
+.kotak {
+  top: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2); 
+  background: #FEFCFF;
+  width: 400px;
+  height: 400px;  
+  margin: auto;
+  padding: 25px;
+}
+
+.login-teks {
+  color: #1B4965;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.form-group1 {
+  margin: auto; 
+  display: block; 
+  width: 80%;
+  padding-top: 25px;
+}
+
+.form-group2 {
+  margin: auto; 
+  display: block; 
+  width: 80%;
+  margin-top: 10px;
+}
+
+button {
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  background: #1B4965;
+}

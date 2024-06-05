@@ -1,0 +1,230 @@
+.bgweb{
+      /* background-image: url('/image/ampera2.jpg'); */
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation: change 20s infinite ease-in-out;
+}
+
+@keyframes change{
+  0%
+  {
+    background-image: url("/image/ampera2.jpg");
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  20%
+  {
+    background-image: url("/image/kemaro1.jpg");
+  }
+  40%
+  {
+    background-image: url("/image/masjid1.jpg");
+  }
+  60%
+  {
+    background-image: url("/image/monpera1.webp");
+  }
+  80%
+  {
+    background-image: url("/image/bkb1.jpg");
+  }
+  100%
+  {
+    background-image: url("/image/ampera2.jpg");
+  }
+}
+
+.bgside{
+    background-color: #EDEDED;
+    position: fixed;
+}
+  
+  .sidebar a {
+    display: block;
+    padding: 13px;
+    text-decoration: none;
+    color: #1b4965; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 50px;
+  }
+
+  .jd{
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+    left: 104px; 
+    top: 32px; 
+    position: absolute; 
+    color: #1B4965; 
+    font-size: 17px; 
+    font-family: Arial, Helvetica, sans-serif;  
+    word-wrap: break-word;
+  }
+
+  #sidebarToggle{
+    background-color:  #1b4965;
+    display: block;
+    text-decoration: none;
+    color: #d4d4d4;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+   
+  .sidebar a.active {
+    background-color: #555;
+    color: white;
+    width: 100%;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    width: 18rem;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .logo{
+    width: 270px; 
+    height: 105px; 
+    position: relative;
+    margin-bottom: 25%;
+    margin-left: 2%;
+  }
+
+  .img{
+    width: 101.12px; 
+    height: 100px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
+  }
+
+.toggleclose{
+  margin-left: 14rem;
+  border: 0px;
+  background-color: #EDEDED;
+  margin-top: 10px;
+  display: block;
+  color: #1b4965;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttonMenu{
+  margin-top: 10px;
+}
+
+#buttonMenu .btnmenu{
+  background-color: #1b4965;
+}
+
+
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -18rem;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 18rem;
+  
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -18rem;
+  }
+
+  #wrapper {
+    overflow-x: hidden;
+  }
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -18rem;
+    transition: margin 0.25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 18rem;
+    
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+    body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+      margin-left: -18rem;
+    }
+  }
+}
